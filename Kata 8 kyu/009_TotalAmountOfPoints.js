@@ -11,7 +11,7 @@
 // there are 10 matches in the championship
 // 0 <= x <= 4 
 // 0 <= y <= 4
-  
+   
 
 function points(games) {
     // console.log(games.length)
