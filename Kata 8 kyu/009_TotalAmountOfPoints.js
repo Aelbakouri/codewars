@@ -18,7 +18,7 @@ function points(games) {
     let points = 0;
     for (let i=0;i<games.length;i++) {
         let g=(games.join(",").split(",")[i].split(":"))
-        var j=0
+        var j=0 
         j+= (Number(g[0])>Number(g[1]))? points+=3 : (Number(g[0])<Number(g[1]))?points+=0 : points+=1
         // (Number(g[0])>Number(g[1]))? points=+3 : (Number(g[0])<Number(g[1]))?points=+0 : points=+1;
 
