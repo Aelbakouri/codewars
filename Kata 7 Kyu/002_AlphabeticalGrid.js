@@ -1,5 +1,5 @@
 // Task:
-// You need to write a function grid that returns an alphabetical grid of size NxN, where a = 0, b = 1, c = 2....
+// You need to write a function grid that returns  an alphabetical grid of size NxN, where a = 0, b = 1, c = 2....
 
 // Examples:
 // grid(4)
@@ -15,7 +15,7 @@
 // c d e f g h i j k l
 // d e f g h i j k l m
 // e f g h i j k l m n
-// f g h i j k l m n o
+// f g h i j k l m n o 
 // g h i j k l m n o p
 // h i j k l m n o p q
 // i j k l m n o p q r
@@ -27,7 +27,7 @@
 
 
 // ************************************************************************************************
-// A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
+// A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z....
 function grid(N) {
   const alpha = 'abcdefghijklmnopqrstuvwxyz'.split('')
   let a = [];
