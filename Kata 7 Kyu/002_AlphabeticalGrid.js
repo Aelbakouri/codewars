@@ -29,21 +29,21 @@
 // ************************************************************************************************
 // A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
 function grid(N) {
-    const alpha ='abcdefghijklmnopqrstuvwxyz'.split('')
-   let a=[];
-      if(N<0){
-        return null
-    }else{
-        for(let i=0;i<N; i++) {
-            
-                a.push(alpha.slice(i,N+i).toString().replace(/,/g,' '))
-            
-        }
-        return a.toString().replace(/,/g,'\n')
-        }
-   
-    //...
+  const alpha = 'abcdefghijklmnopqrstuvwxyz'.split('')
+  let a = [];
+  if (N < 0) {
+    return null
+  } else {
+    for (let i = 0; i < N; i++) {
+
+      a.push(alpha.slice(i, N + i).toString().replace(/,/g, ' '))
+
+    }
+    return a.toString().replace(/,/g, '\n')
   }
 
-  console.log(grid(19));
+  //...
+}
+
+console.log(grid(19));
 
