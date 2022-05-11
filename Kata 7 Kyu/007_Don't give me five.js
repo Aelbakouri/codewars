@@ -15,7 +15,14 @@
 // I have also created other katas. Take a look if you enjoyed this kata!
 
 
-function dontGiveMeFive(start, end)
-{
-  return 0;
+function dontGiveMeFive(start, end) {
+    const arr = []
+    for (let i = start; i <= end; i++) {
+        arr.push(i)
+    }
+    // return arr.toString()
+    return arr.map(x => x.toString()).filter(x => !x.includes("5")).length
 }
+
+// console.log(x)
+console.log(dontGiveMeFive(4, 17));
