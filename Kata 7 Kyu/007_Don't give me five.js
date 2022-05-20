@@ -14,7 +14,7 @@
 
 // I have also created other katas. Take a look if you enjoyed this kata!
 
-
+ 
 function dontGiveMeFive(start, end) {
     const arr = []
     for (let i = start; i <= end; i++) {
